@@ -48,6 +48,11 @@ npm i bcrypt
 npm i -D @types/bcrypt
 ```
 
+### Open SSL Key Generate
+```
+openssl rand -base64 32
+```
+
 ### Production Deployment
 - Install  pm2 library for production management
 ```
