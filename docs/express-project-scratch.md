@@ -47,3 +47,22 @@ npm i bcrypt
 ```
 npm i -D @types/bcrypt
 ```
+
+### Production Deployment
+- Install  pm2 library for production management
+```
+npm i -g pm2
+```
+- 
+```
+git clone your_repo
+```
+```
+cd nodejs-express-docker\server
+```
+```
+npm install
+```
+```
+pm2 start
+```
